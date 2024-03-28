@@ -61,7 +61,7 @@ app.listen(PORT, () => console.log("サーバーが起動しました"));
 // Corsの設定
 
 app.use(cors({
-  origin: 'www.albasiempre.com', //アクセス許可するオリジン
+  origin: 'https://www.albasiempre.com/', //アクセス許可するオリジン
   credentials: true, //レスポンスヘッダーにAccess-Control-Allow-Credentials追加
   optionsSuccessStatus: 200 //レスポンスstatusを200に設定
 }))
